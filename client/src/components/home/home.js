@@ -1,5 +1,6 @@
 import axios from 'axios';
 import { useState, useEffect } from 'react';
+import './home.css'
 
 function Home()
 {
@@ -12,16 +13,15 @@ function Home()
     useEffect(getOwners, []);
     
     return(
-        <div>Here are the customers: 
-        
-        <ul>
-            {customers.map((e,i) => {
-                return (
-                        <li>{e.firstName} {e.lastName}</li>
-                )
-            })}
-        </ul>
-        
+        <div className="homepage">
+            <p>Here is a test list: </p>
+            <ul>
+                {customers.map((e,i) => {
+                    return (
+                            <li>{e.firstName} {e.lastName}</li>
+                    )
+                })}
+            </ul>
         </div>
     )
 }
