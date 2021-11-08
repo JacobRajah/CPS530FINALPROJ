@@ -1,0 +1,29 @@
+{
+  "name": "cps530finalproj",
+  "version": "1.0.0",
+  "description": "Final project for CPS530",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "cd client && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JacobRajah/CPS530FINALPROJ.git"
+  },
+  "author": "Jacob Rajah, Paige Lewis, Adam Varghese",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JacobRajah/CPS530FINALPROJ/issues"
+  },
+  "homepage": "https://github.com/JacobRajah/CPS530FINALPROJ#readme",
+  "dependencies": {
+    "concurrently": "^6.3.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
