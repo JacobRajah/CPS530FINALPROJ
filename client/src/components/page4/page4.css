@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.p4 {
+    background-image: url(https://happytowander.com/wp-content/uploads/Peyto-Lake-Banff-Alberta-Happy-to-Wander-0411.jpg);
+    height: 2200px;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.imgbox {
+    padding: 1%;
+    height: 450px;
+    background-color: whitesmoke;
+    width: 80%;
+    margin: auto;
+    box-shadow: 30px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.reel {
+    width: 60%;
+    height: 450px;
+    float: left;
+}
+
+.message-box-1 {
+    padding: 25px;
+    margin-left: 30px;
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+    float: left;
+    background-color: yellow;
+}
+
+.top-section {
+    margin-left: 50px;
+    padding: 20px;
+    font-size: 85px;
+    font-family: 'Bebas Neue', cursive;
+    float: left;
+    background-color: yellow;
+}
+
+.summary {
+    background-color: yellow;
+    width: 40%;
+    float: right;
+    margin-right: 50px;
+    padding: 20px;
+}
+
+.snap {
+    border: 10px solid yellow;
+    width: 600px;
+    height: 400px;
+    margin-left: 80px;
+    margin-top: 140px;
+}
+
+.header-title {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 24px;
+}
+
+.bp:hover {
+    font-weight: bold;
+    font-size: 30px;
+    cursor: pointer;
+}

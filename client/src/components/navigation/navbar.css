@@ -10,7 +10,7 @@
     float: left;
 }
 
-li a {
+.option a {
     display: block;
     color: rgb(255, 255, 255);
     font-style: italic;
@@ -21,6 +21,6 @@ li a {
     
 }
 
-li:hover {
+.option:hover {
     background-color: green;
 }
