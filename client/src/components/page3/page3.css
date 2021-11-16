@@ -1,7 +1,36 @@
 .p3 {
     background-color: #98B4D4;
-    height: 2200px;
+    height: 1800px;
     background-position: center;
     background-repeat: repeat;
     background-size: cover;
+}
+
+.main-title {
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 54px;
+}
+
+.section-header {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 35px;
+    margin-left: 20px;
+}
+
+.content {
+    float: left;
+    width: 50%;
+    margin-left: 20px;
+}
+
+.img-snippet {
+    width: 500px;
+    height: 500px;
+    margin-left: 40px;
+}
+
+.img-snippet-1 {
+    margin-top: 40px;
+    margin-left: 40px;
 }

@@ -13,7 +13,7 @@ function ImageReel()
 
     const [currImg, setCurrImg] = useState({id: -1, url: ""});
 
-    useEffect(() => {setInterval(getImage, 10000)}, []);
+    useEffect(() => {setInterval(getImage, 5000)}, []);
 
     return(
         <div className="imgbox">
