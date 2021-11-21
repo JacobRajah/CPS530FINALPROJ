@@ -4,19 +4,19 @@
     background-repeat: repeat;
     background-size: cover;
 }
-h1 {
+.h1-p1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: blue;
     border: 3px solid green;
 }
-h2 {
+.h2-p1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: green;
 }
-figcaption {
+.figcaption-p1 {
     text-align: left;
 }
-img{
+.img-p1{
     width: 25%;
     margin-right: 100%;
 }

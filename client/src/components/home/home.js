@@ -5,22 +5,14 @@ import React from "../../images/reactjs-thumb.jpg";
 import Express from "../../images/express.png";
 
 function Home()
-{
-    const [customers, setCustomers] = useState([]);
-    const getOwners = () => {
-        axios.get('/api/customers').then(res => {
-            setCustomers(res.data);
-        })
-    }
-    useEffect(getOwners, []);
-    
+{    
     return(
         <div className="homepage">
-            <h1>Homepage</h1>
+            <h1 className="h1-p1">Homepage</h1>
             <h2 className="title">FrontEnd Language: React.js</h2>
             <figure>
-            <img src={React} alt="React Symbol"></img>
-            <figcaption> Figure 1. React.js</figcaption>
+            <img className="img-p1" src={React} alt="React Symbol"></img>
+            <figcaption className="figcaption-p1"> Figure 1. React.js</figcaption>
             </figure>
             <h3 className="title">Popularity</h3>
             <p className="title">React is a JavaScript library that specializes in helping developers build user interfaces, or UIs.
@@ -70,13 +62,6 @@ function Home()
             <li>It's not big on security; Express doesn't dictate how security is implemented either - that's entirely up to your app.</li>
             <li>Express js incorporate code patterns to avoid repetition. This can cause a problem in debugging if script is incorrect </li>
             </ul>
-            {/* <ul>
-                {customers.map((e,i) => {
-                    return (
-                            <li>{e.firstName} {e.lastName}</li>
-                    )
-                })}
-            </ul> */}
         </div>
     )
 }
