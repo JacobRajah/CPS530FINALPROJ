@@ -1,3 +1,25 @@
 .homepage {
-    background-color: blueviolet;
+    background-color: #98B4D4;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blue;
+    border: 3px solid green;
+}
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: green;
+}
+figcaption {
+    text-align: left;
+}
+img{
+    width: 25%;
+    margin-right: 100%;
+}
+.title{
+    text-align: left;
 }
