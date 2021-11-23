@@ -3,11 +3,13 @@ import { useState, useEffect } from 'react';
 import './home.css'
 import React from "../../images/reactjs-thumb.jpg";
 import Express from "../../images/express.png";
+import Nav from '../navigation/navbar';
 
 function Home()
 {    
     return(
         <div className="homepage">
+            <Nav/>
             <h1 className="h1-p1">Homepage</h1>
             <h2 className="title">FrontEnd Language: React.js</h2>
             <figure>
