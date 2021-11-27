@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import './page6.css'
 import React from "../../images/reactjs-thumb.jpg";
 import Jacob from "../../images/Jacob_Picture.png";
-import Adam from "../../images/express.png";
+import Adam from "../../images/Adam.jpg";
 import Paige from "../../images/paige.png";
 
 function page6()
@@ -28,7 +28,7 @@ function page6()
 
             <h2 className="title">Adam</h2>
             <figure>
-            {/* <img src={Express} alt="Express Symbol"></img> */}
+            <img src={Adam} className="Adam" alt="Picture of Adam"></img>
 
             </figure>
             <h3 className="title">Responsibilities</h3>
