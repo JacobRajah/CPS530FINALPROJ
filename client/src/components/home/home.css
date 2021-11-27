@@ -5,21 +5,33 @@
     background-size: cover;
 }
 .h1-p1 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 54px;
     color: blue;
     border: 3px solid green;
 }
 .h2-p1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: green;
+    text-align: left;
 }
 .figcaption-p1 {
-    text-align: center;
+    text-align: left;
 }
 .img-p1{
     width: 25%;
     margin-right: 100%;
 }
 .title{
-    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+}
+.para{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+}
+.h3-p1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: red;
+    text-align: left;
 }
