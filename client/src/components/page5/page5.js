@@ -2,6 +2,7 @@ import './page5.css'
 import Nav from "../navigation/navbar";
 import Front from "../../images/Front_end.jpg";
 import Back from "../../images/Back_end.jpg";
+import Back2 from "../../images/back-end-developer.jpg";
 function Page5()
 {
     return (
@@ -22,8 +23,9 @@ function Page5()
                 This is especially important on mobile devices, where the power and thermal-constrained environment can wreak havoc on a 
                 badly-architected application.</p>
                 <h2 className="h2-p1">Express.js Experience</h2>
-                <figure>
+                <figure classname = "fig">
                 <img className="img-p3" src={Back} alt="Back End"></img>
+                <img className="img-p3" src={Back2} alt="Back End"></img>
                 </figure>
                 <p className="para">We enjoyed working with express.js because it was an easy to learn framework which allowed me to create server side REST endpoints, 
                 serve HTML files and handle client requests all without a large learning curve. 
