@@ -23,16 +23,17 @@ function Page5()
                 This is especially important on mobile devices, where the power and thermal-constrained environment can wreak havoc on a 
                 badly-architected application.</p>
                 <h2 className="h2-p1">Express.js Experience</h2>
-                <figure classname = "fig">
-                <img className="img-p3" src={Back} alt="Back End"></img>
-                <img className="img-p3" src={Back2} alt="Back End"></img>
+                <figure>
+                <img className="img-p4" src={Back} alt="Back End"></img><img className="img-p4" src={Back2} alt="Back End"></img>
+                
                 </figure>
-                <p className="para">We enjoyed working with express.js because it was an easy to learn framework which allowed me to create server side REST endpoints, 
+                <p>We enjoyed working with express.js because it was an easy to learn framework which allowed me to create server side REST endpoints, 
                 serve HTML files and handle client requests all without a large learning curve. 
                 This was beneficial because it helped to focus more on developing the server side 
                 application instead of focusing on how to work with the tool. Additionally, express.js is very efficient and responsive 
                 which helped make our user side experience smooth and enjoyable because there was no presence of lag or wait times between the
                 client and server.</p>
+                
             </div>
     );
 }
